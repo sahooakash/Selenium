@@ -11,6 +11,7 @@ public class ToLearnNavigate {
 
 	public static void main(String[] args) throws InterruptedException, MalformedURLException {
 		WebDriver driver = new ChromeDriver();
+		System.out.println("Hello Github");
 		driver.get("https://www.flipkart.com/");
 		driver.manage().window().maximize();
 		driver.navigate().back();
